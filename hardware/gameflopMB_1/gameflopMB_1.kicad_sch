@@ -6,6 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 226.06 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2064c282-bfdb-4696-87dd-f081b4d84e4e")
+	)
+	(junction
 		(at 177.8 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -30,10 +36,22 @@
 		(uuid "701b4219-61dd-4c28-a601-c1bb30c4a8d9")
 	)
 	(junction
+		(at 120.65 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e14e2b-23a2-4b8f-b6c3-92bb0d3c55da")
+	)
+	(junction
 		(at 185.42 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be864b4-e880-42c1-a643-fb027d806464")
+	)
+	(junction
+		(at 120.65 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea705c2-f2ad-4d80-83ca-16ed28b9f562")
 	)
 	(junction
 		(at 185.42 40.64)
@@ -46,6 +64,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf39d031-05db-4da2-b79f-2dcca27f3e09")
+	)
+	(junction
+		(at 172.72 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c01d65eb-5f48-41ee-8778-6aba7368d60c")
 	)
 	(junction
 		(at 186.69 85.09)
@@ -68,6 +92,16 @@
 			(type default)
 		)
 		(uuid "086f6dcb-8897-44d6-892a-10f0d03d7e05")
+	)
+	(wire
+		(pts
+			(xy 172.72 152.4) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f25af6-0410-4eb2-a4c7-2ce3193782ca")
 	)
 	(wire
 		(pts
@@ -121,6 +155,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 152.4) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e857506-01a4-42ab-aa22-87b32deaae69")
+	)
+	(wire
+		(pts
+			(xy 278.13 62.23) (xy 278.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384b0b25-ae56-404b-b31e-714b2df0f236")
+	)
+	(wire
+		(pts
 			(xy 223.52 140.97) (xy 170.18 140.97)
 		)
 		(stroke
@@ -161,6 +215,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 125.73) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecf0682-01bb-4230-81fb-383c6ace56ec")
+	)
+	(wire
+		(pts
+			(xy 173.99 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd0c2e6-614f-4fad-a9b2-3096f8af795c")
+	)
+	(wire
+		(pts
 			(xy 238.76 85.09) (xy 186.69 85.09)
 		)
 		(stroke
@@ -181,6 +255,26 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 152.4) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a16a9a-fde5-4dab-a87c-299653c72b14")
+	)
+	(wire
+		(pts
+			(xy 91.44 152.4) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf79ac0-760b-4164-8b06-934ddfc32d89")
+	)
+	(wire
+		(pts
 			(xy 185.42 40.64) (xy 198.12 40.64)
 		)
 		(stroke
@@ -198,6 +292,16 @@
 			(type default)
 		)
 		(uuid "72ef7165-e726-4e16-ab3b-5649e08e53bb")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73debdc5-d23a-4424-a73a-8d5231055dcf")
 	)
 	(wire
 		(pts
@@ -281,6 +385,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3106388-4375-46c8-931d-2b074a54da6a")
+	)
+	(wire
+		(pts
 			(xy 173.99 115.57) (xy 170.18 115.57)
 		)
 		(stroke
@@ -311,6 +425,36 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 62.23) (xy 278.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b70afa-270c-445d-bab7-ed6b76c67936")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65bae91-2d97-4cae-96d9-7322bb68dc4c")
+	)
+	(wire
+		(pts
+			(xy 227.33 125.73) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06a1e5f-bb67-44b7-bf2d-2af90901a376")
+	)
+	(wire
+		(pts
 			(xy 110.49 140.97) (xy 110.49 115.57)
 		)
 		(stroke
@@ -338,6 +482,16 @@
 			(type default)
 		)
 		(uuid "d7f98bdb-e47b-4395-b6c3-8f531a34af41")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba16b8b-bfbc-4872-89f3-b4132b41b2cb")
 	)
 	(wire
 		(pts
@@ -398,6 +552,16 @@
 			(type default)
 		)
 		(uuid "fd2babf6-deca-4d20-b361-69ae167be5c4")
+	)
+	(wire
+		(pts
+			(xy 120.65 152.4) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda78457-6159-4d46-a5f9-60e3032b0207")
 	)
 	(text "Driver LED"
 		(exclude_from_sim no)
@@ -469,6 +633,16 @@
 			)
 			(uuid "b4dbb04e-6a25-4758-8688-299201015b26")
 		)
+		(pin "GND" input
+			(at 227.33 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b88569c5-f051-4ae4-9399-115b9524f365")
+		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0"
@@ -537,6 +711,16 @@
 			)
 			(uuid "f0c5bed5-8ce3-470d-b21f-cbd7f76d4b7b")
 		)
+		(pin "GND" input
+			(at 173.99 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89bde4aa-e377-4170-ade9-70fa2af129f4")
+		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0"
@@ -557,7 +741,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "585eda5f-c3be-48fc-88f5-d02597212ccf")
-		(property "Sheetname" "Driver"
+		(property "Sheetname" "Driver0"
 			(at 125.73 27.2284 0)
 			(effects
 				(font
@@ -604,6 +788,16 @@
 				(justify left)
 			)
 			(uuid "5d78c241-24ec-4e25-a7e0-b9199f684ff8")
+		)
+		(pin "GND" input
+			(at 125.73 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f86249b1-8d77-4e6b-8360-36a35764de60")
 		)
 		(instances
 			(project "gameflopMB_1"
@@ -701,6 +895,16 @@
 			)
 			(uuid "89957298-6981-4610-acff-95be49edd80e")
 		)
+		(pin "GND" input
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8250688a-ce8f-4e92-a65f-3b55178a7192")
+		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0"
@@ -769,6 +973,16 @@
 			)
 			(uuid "707ac0db-97a4-4d48-93cf-686216e68149")
 		)
+		(pin "GND" input
+			(at 124.46 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "358e24ba-4c10-4433-8e8c-0174500c6120")
+		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0"
@@ -836,6 +1050,16 @@
 				(justify left)
 			)
 			(uuid "5ca9ce67-7204-4b7c-8435-b2311b2afe03")
+		)
+		(pin "GND" input
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c13d558f-22ef-42e1-af8b-790d7708ab29")
 		)
 		(instances
 			(project "gameflopMB_1"
