@@ -65,9 +65,9 @@
 		)
 		(symbol "Switch carré_1_1"
 			(pin input line
-				(at -3.81 0 0)
+				(at 3.81 1.27 180)
 				(length 2.54)
-				(name "Vin"
+				(name "VIn1"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -83,9 +83,9 @@
 				)
 			)
 			(pin output line
-				(at 3.81 1.27 180)
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "Vout2"
+				(name "VOut"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -100,10 +100,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 3.81 -1.27 180)
 				(length 2.54)
-				(name "Vout1"
+				(name "VIn3"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -165,6 +165,58 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "Switch_Rond_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Switch_Rond_1_1"
+			(pin input line
+				(at -3.81 0 180)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 1.27 0 180)
+				(length 2.54)
+				(name "Vout"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 		)
 	)

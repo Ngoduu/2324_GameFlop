@@ -1333,7 +1333,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 1.27 0 180)
 					(length 2.54)
 					(name "Vout"
@@ -1796,6 +1796,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "tp4056:TP4056"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2029,6 +2125,12 @@
 		(uuid "0a584ffa-2dfc-4588-8032-9c8f96b9342d")
 	)
 	(junction
+		(at 231.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12019a28-202e-415c-bad6-326fdd5f68b2")
+	)
+	(junction
 		(at 62.23 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2041,10 +2143,22 @@
 		(uuid "33cac9ef-c24c-495b-9265-baee4f9f8b05")
 	)
 	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357e158d-d49c-4a33-b539-20b593038340")
+	)
+	(junction
 		(at 186.69 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a7c51a7-a7eb-4aae-b7ad-c2da540b71c8")
+	)
+	(junction
+		(at 213.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d66da22-083c-47c5-8554-f57f8bfc44d1")
 	)
 	(junction
 		(at 62.23 125.73)
@@ -2065,10 +2179,22 @@
 		(uuid "52d39128-4060-4f3b-adda-0d73e86a3ac2")
 	)
 	(junction
+		(at 219.71 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57be88a0-ebf4-4741-9606-32968b8c0e09")
+	)
+	(junction
 		(at 172.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60d41f08-7ee7-4094-a5cf-517f6ba53445")
+	)
+	(junction
+		(at 219.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "638c2b1a-fda3-4a5d-98d5-31f4872bd517")
 	)
 	(junction
 		(at 140.97 143.51)
@@ -2095,12 +2221,6 @@
 		(uuid "9151b9fb-99a2-4278-8f66-4f61c1a81dd5")
 	)
 	(junction
-		(at 220.98 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c444b55-c64a-4c95-b8f1-270563c10cea")
-	)
-	(junction
 		(at 140.97 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2113,16 +2233,16 @@
 		(uuid "a37ed126-d6c8-4bef-832a-620827fde03c")
 	)
 	(junction
-		(at 220.98 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab1c57b1-7ad7-4eaf-b4b1-34a94cf1099f")
-	)
-	(junction
 		(at 34.29 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae4ed25b-e65b-4b63-b00e-3bbc08ef49d1")
+	)
+	(junction
+		(at 234.95 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9af03eb-5b4c-4837-9ebd-5c534ed0ce8a")
 	)
 	(junction
 		(at 152.4 125.73)
@@ -2153,10 +2273,6 @@
 		(uuid "0938bc02-1a54-40cd-89be-8e8c55ec1f3c")
 	)
 	(no_connect
-		(at 52.07 190.5)
-		(uuid "2fb500e1-34b7-4a91-b821-600b8ae21900")
-	)
-	(no_connect
 		(at 30.48 189.23)
 		(uuid "4eff6b03-2dac-4166-8639-b646462db4fd")
 	)
@@ -2180,10 +2296,6 @@
 		(at 224.79 142.24)
 		(uuid "ca451825-875d-41ea-bb50-ac7a0f7a0309")
 	)
-	(no_connect
-		(at 247.65 30.48)
-		(uuid "e1af4d3e-174c-48f5-b466-0e1da58f4f89")
-	)
 	(wire
 		(pts
 			(xy 96.52 139.7) (xy 96.52 142.24)
@@ -2206,13 +2318,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 91.44) (xy 218.44 91.44)
+			(xy 207.01 91.44) (xy 213.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05f877de-d2b7-4750-ac09-c12ae15fa543")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 234.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082ad145-137c-429e-b582-1f392b769082")
 	)
 	(wire
 		(pts
@@ -2233,16 +2355,6 @@
 			(type default)
 		)
 		(uuid "08995033-fb33-4a9d-a4bb-e43a6ced23dd")
-	)
-	(wire
-		(pts
-			(xy 234.95 132.08) (xy 220.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fba2e3-b1a5-4ba6-8ac3-844e21d9d82a")
 	)
 	(wire
 		(pts
@@ -2296,17 +2408,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 167.64 63.5)
+			(xy 156.21 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b8cc559-6a34-4973-adc6-6935b29e99e7")
+		(uuid "1e1601d0-51f8-4fba-a820-f429af90d3cf")
 	)
 	(wire
 		(pts
-			(xy 234.95 147.32) (xy 234.95 158.75)
+			(xy 234.95 147.32) (xy 234.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2383,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "35bfdc6a-21e9-400d-99d1-88b9b6b3ab35")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37555722-ba91-41d6-8989-773dcf852675")
 	)
 	(wire
 		(pts
@@ -2466,13 +2588,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 152.4)
+			(xy 219.71 132.08) (xy 219.71 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4cf55617-6721-43be-be91-1b74d026d823")
+	)
+	(wire
+		(pts
+			(xy 219.71 132.08) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db5576a-8898-4042-91e0-8ff08d1b7b92")
 	)
 	(wire
 		(pts
@@ -2536,13 +2668,33 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 157.48) (xy 220.98 158.75)
+			(xy 219.71 132.08) (xy 191.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c91e7a-546c-4399-8de3-c0cb6d20efed")
+	)
+	(wire
+		(pts
+			(xy 219.71 156.21) (xy 219.71 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66d04e31-9530-40fd-b4f8-8e463e2c7ed2")
+	)
+	(wire
+		(pts
+			(xy 219.71 158.75) (xy 234.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678aeab4-35a6-416b-b5e8-e9d2d4c93bb5")
 	)
 	(wire
 		(pts
@@ -2596,16 +2748,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 191.77 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758e4d6a-ddae-4e19-abe0-300c613fd251")
-	)
-	(wire
-		(pts
 			(xy 152.4 132.08) (xy 152.4 135.89)
 		)
 		(stroke
@@ -2656,16 +2798,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 158.75) (xy 234.95 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819745d1-67fb-4191-8b9e-2e9b7833c9b8")
-	)
-	(wire
-		(pts
 			(xy 109.22 139.7) (xy 96.52 139.7)
 		)
 		(stroke
@@ -2693,6 +2825,16 @@
 			(type default)
 		)
 		(uuid "854caacc-9743-4e0a-9953-71e624e69d2d")
+	)
+	(wire
+		(pts
+			(xy 234.95 149.86) (xy 234.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885ce029-4970-4601-847d-6279fd8bdf0e")
 	)
 	(wire
 		(pts
@@ -2773,6 +2915,16 @@
 			(type default)
 		)
 		(uuid "9cf3d669-b3a4-4d4e-a1ee-435c517d4eb0")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6e2a14-58d5-48ab-95d3-890b48d788b3")
 	)
 	(wire
 		(pts
@@ -3096,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 158.75) (xy 220.98 158.75)
+			(xy 214.63 158.75) (xy 219.71 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3113,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "df61c384-6557-42d2-87e3-947cc2d5c3ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2dd094-5c73-4532-9530-b96d4d40b56f")
 	)
 	(wire
 		(pts
@@ -3163,16 +3325,6 @@
 			(type default)
 		)
 		(uuid "f6c4f662-6cd5-4691-bb4d-6559038bd9e2")
-	)
-	(wire
-		(pts
-			(xy 172.72 113.03) (xy 172.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbae17ee-e4e0-4bf9-96d0-a9101899a3ef")
 	)
 	(wire
 		(pts
@@ -3358,76 +3510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 220.98 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ef36796-70f9-4236-b2aa-0bd5b1313cef")
-		(property "Reference" "10nF"
-			(at 223.52 153.6762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 223.52 156.2162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae4a8285-8730-494e-a2bf-77ff7f686442")
-		)
-		(pin "1"
-			(uuid "a734f221-5d4b-4d33-bd85-b00c61c68538")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10nF")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 38.1 104.14 180)
 		(unit 1)
@@ -3498,76 +3580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 256.54 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29605233-2c7b-4e68-a5a7-0883b8f79085")
-		(property "Reference" "10uF"
-			(at 259.08 96.5262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 259.08 99.0662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 256.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f2c6d3f-3ba6-449a-8c2e-0b8881431db0")
-		)
-		(pin "1"
-			(uuid "ea467d81-4e4d-4a80-93e5-0e59a84107be")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10uF")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 92.71 142.24 90)
 		(unit 1)
@@ -3629,6 +3641,76 @@
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ddbbf51-1cf0-4e24-9912-790131ce442e")
+		(property "Reference" "C_Small5"
+			(at 250.19 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 250.19 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f7de22a-c6f5-42bf-a281-02dbeaf912dc")
+		)
+		(pin "1"
+			(uuid "65a9e9fb-dd63-43d5-8f5e-4f9584e8c0cf")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small5")
 					(unit 1)
 				)
 			)
@@ -3711,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45097de3-d30d-4655-91d7-c1382b3daae1")
-		(property "Reference" "10uF"
+		(property "Reference" "C_Small10"
 			(at 52.07 139.7062 0)
 			(effects
 				(font
@@ -3720,7 +3802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uF"
 			(at 52.07 142.2462 0)
 			(effects
 				(font
@@ -3765,7 +3847,7 @@
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10uF")
+					(reference "C_Small10")
 					(unit 1)
 				)
 			)
@@ -4237,6 +4319,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 152.4 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6988c4f8-469d-4137-91f0-e49059b2b880")
+		(property "Reference" "C_Small1"
+			(at 154.94 128.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 154.94 130.8162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6790bb1-144b-4fdc-be3c-1ccc310af05d")
+		)
+		(pin "1"
+			(uuid "8dcc5ee0-93fe-4091-88ad-4fa968166ac2")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 78.74 0)
 		(unit 1)
@@ -4374,6 +4526,146 @@
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:Switch_Rond")
+		(at 172.72 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d277542-258b-4883-b48e-87dcdf3ba7f2")
+		(property "Reference" "U20"
+			(at 173.99 108.5849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 173.99 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a99e4fc-103e-4968-9546-f7085eea80c5")
+		)
+		(pin "2"
+			(uuid "e3d634e5-9188-4bff-8686-551507061dad")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d5fbde8-9c58-4190-8b71-5e0a8c1583fc")
+		(property "Reference" "C_Small3"
+			(at 199.39 69.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 199.39 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ebfd856-5f4d-40d5-a992-1ce82ab49692")
+		)
+		(pin "1"
+			(uuid "8aa86277-9b17-4fb4-9255-70fb71f6d23f")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small3")
 					(unit 1)
 				)
 			)
@@ -4537,146 +4829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:Switch_Rond")
-		(at 172.72 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8552ef10-cf55-4301-b897-051bc243985b")
-		(property "Reference" "Switchon/off"
-			(at 173.99 108.5849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 173.99 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6b4c420-9a29-4769-8a90-63b2a7ec2598")
-		)
-		(pin "2"
-			(uuid "eee021b3-724c-473a-942f-3349a1e8802e")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "Switchon/off")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 196.85 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85819fc9-226b-40a2-b40c-ec3fe0780a38")
-		(property "Reference" "10uF"
-			(at 199.39 69.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 199.39 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 196.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36ef91ec-5351-4db2-9103-b9bcb00e789a")
-		)
-		(pin "1"
-			(uuid "8e251c43-ce1a-4cc3-b7b2-69a9ce9fc0f8")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10uF")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 77.47 0)
 		(unit 1)
@@ -4822,35 +4974,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 247.65 104.14 0)
+		(lib_id "power:PWR_FLAG")
+		(at 213.36 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4790b92-9fd8-4236-9194-bb2f37cbfb3f")
-		(property "Reference" "10nF"
-			(at 250.19 102.8762 0)
+		(uuid "a0b53ac5-424f-44d9-99c6-24838c63e10f")
+		(property "Reference" "#FLG01"
+			(at 213.36 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 250.19 105.4162 0)
+		(property "Value" "PWR_FLAG"
+			(at 213.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 104.14 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +5010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 104.14 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,25 +5018,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 247.65 104.14 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "573dc069-9a17-4ed0-af4b-0d81d16e3f2a")
 		)
 		(pin "1"
-			(uuid "4ac1c0f6-3a9a-46b1-af84-d19c03768fb3")
+			(uuid "feefef6a-051d-450b-ae97-ad5dab27d1fc")
 		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10nF")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5164,6 +5312,279 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f23dbd-ea9a-4b09-b24b-c7d5405aab9b")
+		(property "Reference" "C_Small2"
+			(at 196.85 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 196.85 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cd3e245-c5b2-4be1-b1b3-9e9325bc7c3f")
+		)
+		(pin "1"
+			(uuid "4d5d2240-a2d5-44e0-96b6-8396bdb8912c")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd5623f2-9866-4ccb-b9d7-c92e4f492a89")
+		(property "Reference" "#FLG02"
+			(at 165.1 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9252d8c0-c9e6-4afa-8103-53783fefb76d")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 234.95 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05f4892-32f7-4073-8643-c3077e6fc8df")
+		(property "Reference" "#FLG06"
+			(at 236.855 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 238.76 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 234.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "176be4bf-b72b-4770-b87a-e5b8f8cfc38a")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c192a05a-95ac-4bbf-800a-e9d6cea55612")
+		(property "Reference" "C_Small4"
+			(at 222.25 152.4062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 222.25 154.9462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee3c12a1-325a-4948-9b8b-f9f5ec12dda5")
+		)
+		(pin "1"
+			(uuid "0147dd8a-b705-4015-afb4-35aca3d69140")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 139.7 90)
 		(unit 1)
@@ -5232,6 +5653,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 256.54 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfed0b49-e580-4f56-8e41-65f8a1c2a27b")
+		(property "Reference" "C_Small6"
+			(at 259.08 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 259.08 99.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a2ad7d5-a365-4493-b19e-fc50f38804e0")
+		)
+		(pin "1"
+			(uuid "2524612e-ee3a-45dc-a140-719429d69bc1")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "C_Small6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c97507-861b-4585-b358-cee9f47e3882")
+		(property "Reference" "#FLG03"
+			(at 231.14 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0186e72e-ffd2-4554-871c-86ece13b14aa")
+		)
+		(instances
+			(project "gameflopMB_1"
+				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 151.13 0)
 		(unit 1)
@@ -5292,146 +5849,6 @@
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e891fc60-f225-4505-afdc-450accdbf42f")
-		(property "Reference" "10uF"
-			(at 154.94 128.2762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 154.94 130.8162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90aee56d-a05c-4b9d-9311-807bfb1fcb6e")
-		)
-		(pin "1"
-			(uuid "af087a8f-ee10-430e-a673-33f1f490f49d")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10uF")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 194.31 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f42a412a-67c2-437f-9420-687a55d1da2f")
-		(property "Reference" "10uF"
-			(at 196.85 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 196.85 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2454d5b4-d293-48a4-962d-e1424e89a111")
-		)
-		(pin "1"
-			(uuid "ed3269cf-b12f-4970-81ad-fb329ecb0442")
-		)
-		(instances
-			(project "gameflopMB_1"
-				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/8440fde4-6146-4276-ab89-4c713bc224fd"
-					(reference "10uF")
 					(unit 1)
 				)
 			)
