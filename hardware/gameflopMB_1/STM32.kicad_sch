@@ -3264,10 +3264,6 @@
 		(uuid "16ae7963-a428-47b7-b24c-44528617794f")
 	)
 	(no_connect
-		(at 130.81 86.36)
-		(uuid "188dd3d2-2b70-4b9b-b1f2-9758b6455740")
-	)
-	(no_connect
 		(at 234.95 68.58)
 		(uuid "19e8226c-b03b-46e3-83ae-04ff8476c340")
 	)
@@ -3278,6 +3274,10 @@
 	(no_connect
 		(at 166.37 129.54)
 		(uuid "2f15c89b-6636-4247-ae50-26caecfc2f53")
+	)
+	(no_connect
+		(at 130.81 93.98)
+		(uuid "372d5717-4765-43ce-8ef9-927bd4f95d95")
 	)
 	(no_connect
 		(at 166.37 127)
@@ -3370,14 +3370,6 @@
 	(no_connect
 		(at 130.81 66.04)
 		(uuid "bd931c1e-ce48-4680-ae46-f75f335ef97f")
-	)
-	(no_connect
-		(at 130.81 93.98)
-		(uuid "bfb71156-18a2-4a65-8f24-8d318cd45d4a")
-	)
-	(no_connect
-		(at 130.81 63.5)
-		(uuid "cd71efdf-78c7-405f-8ea4-c4e374a5def1")
 	)
 	(no_connect
 		(at 57.15 83.82)
@@ -3953,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81789a3a-280f-4d8e-af66-122a1640e6c7")
+	)
+	(wire
+		(pts
 			(xy 210.82 119.38) (xy 210.82 121.92)
 		)
 		(stroke
@@ -4210,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "9e0a2246-9553-401d-832c-f08c8fff85c3")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a0e148-5abf-4112-8dcf-717268affaac")
 	)
 	(wire
 		(pts
@@ -5413,6 +5425,18 @@
 		)
 		(uuid "b392e6b7-e808-4a63-91eb-daa5f45eb7a8")
 	)
+	(hierarchical_label "Codec_SDA"
+		(shape input)
+		(at 121.92 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b434da35-eb7e-451e-a9d9-af16d97f0d12")
+	)
 	(hierarchical_label "+3,3V"
 		(shape input)
 		(at 31.75 93.98 270)
@@ -5436,6 +5460,18 @@
 			(justify right)
 		)
 		(uuid "e70fb16e-2bef-4b8d-8e93-c1d7a514ac9a")
+	)
+	(hierarchical_label "Codec_SCL"
+		(shape input)
+		(at 120.65 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5f54794-6f06-4b69-9edc-a9006f2f28f1")
 	)
 	(hierarchical_label "LED_SCL"
 		(shape input)
@@ -5477,7 +5513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -5550,7 +5586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 78.74 133.35 0)
 			(effects
 				(font
@@ -5606,24 +5642,24 @@
 		(fields_autoplaced yes)
 		(uuid "0e7160a5-9251-4abd-bba0-d8a575090131")
 		(property "Reference" "C1"
-			(at 116.84 52.0638 0)
+			(at 121.92 49.5235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 116.84 49.5238 0)
+		(property "Value" "100nF"
+			(at 121.92 52.0635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -5759,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 67.31 80.01 0)
 			(effects
 				(font
@@ -5830,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.43 36.83 0)
 			(effects
 				(font
@@ -5966,7 +6002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 217.932 125.73 90)
 			(effects
 				(font
@@ -6036,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 200.152 125.73 90)
 			(effects
 				(font
@@ -6106,7 +6142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -6177,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
 			(at 240.03 76.2 0)
 			(effects
 				(font
@@ -6672,7 +6708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 148.59 39.37 0)
 			(effects
 				(font
@@ -6742,7 +6778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 44.45 80.01 0)
 			(effects
 				(font
@@ -6815,7 +6851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 67.31 133.35 0)
 			(effects
 				(font
@@ -6888,7 +6924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -6958,7 +6994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -7094,7 +7130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 21.59 80.01 0)
 			(effects
 				(font
@@ -7233,7 +7269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Switch carré"
 			(at 33.02 80.01 0)
 			(effects
 				(font
@@ -7370,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
 			(at 292.1 130.81 0)
 			(effects
 				(font
@@ -7461,7 +7497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 209.042 125.73 90)
 			(effects
 				(font
@@ -7531,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.67 34.29 0)
 			(effects
 				(font

@@ -262,33 +262,30 @@
 				)
 			)
 		)
-		(symbol "HT16K33:HT16K33"
+		(symbol "HT16K33_1"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at -12.7 27.94 0)
+			(property "Reference" "IC7"
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "HTK16K33"
-				(at 0 0 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "HT16K33:HT16K33"
+			(property "Footprint" "Library:HT16K33"
 				(at 0 0 0)
 				(effects
 					(font
@@ -406,7 +403,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HT16K33_0_0"
+			(symbol "HT16K33_1_0_0"
 				(rectangle
 					(start -12.7 27.94)
 					(end 12.7 -45.72)
@@ -562,80 +559,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -34.29 180)
-					(length 2.54)
-					(name "COM4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -36.83 180)
-					(length 2.54)
-					(name "COM5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -39.37 180)
-					(length 2.54)
-					(name "COM6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -41.91 180)
-					(length 2.54)
-					(name "COM7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
-			(symbol "HT16K33_1_0"
+			(symbol "HT16K33_1_1_0"
 				(pin bidirectional line
 					(at 15.24 -5.08 180)
 					(length 2.54)
@@ -863,6 +788,78 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -34.29 180)
+					(length 2.54)
+					(name "COM4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "COM5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -39.37 180)
+					(length 2.54)
+					(name "COM6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -41.91 180)
+					(length 2.54)
+					(name "COM7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2616,7 +2613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BL-M12X883"
 			(at 191.77 111.76 0)
 			(effects
 				(font
@@ -2764,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 62.992 68.58 90)
 			(effects
 				(font
@@ -3002,7 +2999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 32.7152 39.37 0)
 			(effects
 				(font
@@ -3084,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 69.342 73.66 90)
 			(effects
 				(font
@@ -3139,6 +3136,7 @@
 		)
 	)
 	(symbol
+		(lib_name "HT16K33_1")
 		(lib_id "HT16K33:HT16K33")
 		(at 106.68 91.44 0)
 		(unit 1)
@@ -3146,9 +3144,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0d5d49f-4724-428c-8eb9-50944270f418")
-		(property "Reference" "IC1"
-			(at 106.426 59.436 0)
+		(fields_autoplaced yes)
+		(uuid "cb9c8e82-edde-4d43-8473-ce8fb5377268")
+		(property "Reference" "IC2"
+			(at 106.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,15 +3155,14 @@
 			)
 		)
 		(property "Value" "HTK16K33"
-			(at 106.934 63.246 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "HT16K33:HT16K33"
+		(property "Footprint" "Library:HT16K33"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -3282,106 +3280,106 @@
 				(hide yes)
 			)
 		)
-		(pin "17"
-			(uuid "d8ceaaf1-59aa-4a37-8f91-8c27c7f7b3d4")
-		)
-		(pin "22"
-			(uuid "a97645ed-3ba4-4eb8-96f4-053a127800d2")
-		)
-		(pin "7"
-			(uuid "e5298af6-3de9-4b85-a9e4-f44b1b724dfa")
-		)
-		(pin "6"
-			(uuid "602096f3-4df6-41a8-8d31-2ebbcc84973e")
-		)
-		(pin "10"
-			(uuid "43b3f510-9f35-49b8-8036-2b9b81105d3f")
-		)
-		(pin "14"
-			(uuid "7050f760-0376-493e-8516-1fbf72abfed6")
-		)
-		(pin "13"
-			(uuid "b6ba5030-bfe0-4537-b2a1-f0b2326f4b9e")
-		)
-		(pin "21"
-			(uuid "f192887d-e777-4866-b7cb-060de2b7a99d")
-		)
-		(pin "12"
-			(uuid "e1a4eea7-aee9-4b76-b133-172f2af6f977")
-		)
-		(pin "19"
-			(uuid "a19379d9-fe6c-4365-a11d-0e7cd700364c")
-		)
-		(pin "8"
-			(uuid "1d07dae3-d394-433b-8754-6e6290a3f9b0")
-		)
-		(pin "22"
-			(uuid "2cdeb598-7703-4b30-a3da-bb77f869a350")
-		)
-		(pin "3"
-			(uuid "26c5c52b-d73e-4287-ae80-e6be00499486")
-		)
-		(pin "24"
-			(uuid "57a71909-79b0-47f4-af72-0340a2431d23")
-		)
-		(pin "2"
-			(uuid "e63b84fc-dacd-487b-addf-435666ae7a63")
-		)
-		(pin "23"
-			(uuid "49e55061-af6a-426a-b8d8-b05a0d4290a0")
-		)
-		(pin "1"
-			(uuid "759303e8-a63e-4118-8c51-66a941f590a8")
-		)
-		(pin "20"
-			(uuid "f36ddd1c-590b-4b64-949a-747042c180a8")
-		)
-		(pin "11"
-			(uuid "43adbce3-5951-43e8-a175-12faee747308")
-		)
-		(pin "5"
-			(uuid "8e882cd2-c8a0-4b9c-9517-3fdb76fcf22b")
-		)
-		(pin "8"
-			(uuid "a3b0edc5-6cdc-4f64-880a-54ecd585ed1c")
-		)
-		(pin "18"
-			(uuid "78af0f8c-376c-43f5-9466-532054c0a2f6")
-		)
-		(pin "15"
-			(uuid "a68170e9-d09a-44d7-addc-409085c8ecd0")
-		)
-		(pin "9"
-			(uuid "1d589f53-7f96-4fea-a5d1-b9f484e68bd5")
-		)
-		(pin "9"
-			(uuid "760ac9f3-4166-4151-8bbd-e6cd0787c589")
+		(pin "26"
+			(uuid "d02d1438-d9d8-4bd8-8a2d-66a396516524")
 		)
 		(pin "16"
-			(uuid "0dd0799c-051d-4a2e-86c5-b19596d3a270")
+			(uuid "c6558ba5-a6c3-49d3-9a39-5a6d39f721d2")
+		)
+		(pin "5"
+			(uuid "1b8816e2-6fac-4250-8e79-c2996fb2ce2e")
+		)
+		(pin "15"
+			(uuid "6203d372-1ac8-431b-bc79-b926b568198c")
+		)
+		(pin "22"
+			(uuid "329343ef-fc8f-45b0-9d9a-eb2671ae19d1")
+		)
+		(pin "12"
+			(uuid "af8ff2df-8a94-4111-ac53-0901aeb66a37")
+		)
+		(pin "25"
+			(uuid "57cdf8fb-b0d8-4b53-bc50-9688f756b4e9")
+		)
+		(pin "22"
+			(uuid "c9674bf8-4493-421f-b52d-7963995bb43d")
+		)
+		(pin "13"
+			(uuid "6e309378-d3e9-485b-bcdb-25e72be26fcc")
+		)
+		(pin "18"
+			(uuid "a282967e-ecb1-40a7-be5b-82bcb3c039ab")
+		)
+		(pin "24"
+			(uuid "ec46eeb3-0f83-4646-b120-788b67bf6629")
+		)
+		(pin "2"
+			(uuid "b81f242a-9fcc-40ba-86cf-3c510c3b5184")
+		)
+		(pin "1"
+			(uuid "c6e53cec-29b2-4942-a236-2bc5c74352bf")
+		)
+		(pin "19"
+			(uuid "026324a9-13da-44b9-a70c-c8f83061c3d5")
+		)
+		(pin "17"
+			(uuid "790f0e25-b988-42be-87b3-6880c4b300a7")
+		)
+		(pin "8"
+			(uuid "0b5ef077-7e72-4a31-8809-9e3b3971fa5c")
+		)
+		(pin "9"
+			(uuid "fc270812-e74e-48d2-9a0e-8bfbdff2868c")
+		)
+		(pin "27"
+			(uuid "9e92579e-5ac7-4e91-ae53-3df61fd2523e")
+		)
+		(pin "10"
+			(uuid "debf4648-56a7-4d76-8e06-56fca6356118")
+		)
+		(pin "14"
+			(uuid "a6f43c49-962f-4297-9bc7-98eb3120aebd")
+		)
+		(pin "6"
+			(uuid "e3b854bb-d712-447c-aa43-ab3ee3ee5608")
 		)
 		(pin "4"
-			(uuid "6acff32b-f0e4-4adc-9bcd-2417c3cbc9d6")
+			(uuid "1a39626f-927a-42c5-85fb-a7180bd6ab61")
 		)
 		(pin "7"
-			(uuid "02d75c3a-1133-46d9-881e-79cb910692b5")
+			(uuid "be69f1fa-07cd-4009-b3b4-199843cef97d")
+		)
+		(pin "11"
+			(uuid "6ec991c5-f5a0-4303-a8aa-2eed3f94599b")
+		)
+		(pin "21"
+			(uuid "e5a7873b-441a-4ee9-8ba2-a505a3ed5188")
+		)
+		(pin "20"
+			(uuid "e0cc1246-ff89-44e8-8591-7d2d858e0fa3")
+		)
+		(pin "23"
+			(uuid "b1e80898-e9e5-4235-889b-606baa4ffccc")
+		)
+		(pin "3"
+			(uuid "241e3498-b9d1-423d-a43a-dd48d45f48f6")
 		)
 		(instances
 			(project "gameflopMB_1"
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/585eda5f-c3be-48fc-88f5-d02597212ccf"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/c59feacd-8f83-49a0-84e1-4d8cf4d90032"
-					(reference "IC3")
+					(reference "IC6")
 					(unit 1)
 				)
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/3b812121-84e0-4fb6-b484-e478d0056e2a"
-					(reference "IC4")
+					(reference "IC7")
 					(unit 1)
 				)
 				(path "/1784a7ba-5cb6-4933-8b46-757da711e3a0/370b33f5-0f9b-48b8-8313-c2e66ae7233b"
-					(reference "IC5")
+					(reference "IC8")
 					(unit 1)
 				)
 			)
